@@ -46,6 +46,7 @@ def main():
 
         elif choice == 'x': # Exit
             print("\nThank you!")
+            input("Press any key to exit . . .")
             break
 
 # Run the main function
