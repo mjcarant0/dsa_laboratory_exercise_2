@@ -9,7 +9,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python" alt="Python Badge">
-  <img src="https://img.shields.io/badge/Status-In%20Progress-yellow" alt="Status Badge">
+  <img src="https://img.shields.io/badge/Status-%20Done-green" alt="Status Badge">
 </p>
 
 ---
@@ -38,28 +38,39 @@ dsa_laboratory_exercise_2/
 │
 ├── call_by_value_reference/
 │   ├── factorial_calculator/
-│       ├── to be added
+│       ├── factorial_function.py
+│       ├── input_checker.py
+│       ├── main.py
 │       ├── README.md
 │   ├── linechar_overload/
-│       ├── to be added
+│       ├── linechar_function.py
+│       ├── main.py
 │       ├── README.md
 │   ├── simple_calculator/
-│       ├── to be added
+│       ├── calculator_function.py
+│       ├── input_checker.py
+│       ├── main.py
 │       ├── README.md
 │   ├── README.md
 │
 ├── function_overloading/
 │   ├── add_nums/
-│       ├── to be added
+│       ├── add_function.py
+│       ├── input_checker.py
+│       ├── main.py
 │       ├── README.md
 │   ├── substring/
-│       ├── to be added
+│       ├── input_checker.py
+│       ├── main.py
+│       ├── substring_function.py
 │       ├── README.md
 │   ├── README.md
 │
 ├── pass_by_array/
 │   ├── sum_odds_num/
-│       ├── to be added
+│       ├── input_checker.py
+│       ├── main.py
+│       ├── sum_odds.py
 │       ├── README.md
 │   ├── README.md
 │
@@ -88,7 +99,7 @@ dsa_laboratory_exercise_2/
 ## 📝 Laboratory Exercise Overview
 
 **Brief Discussion:**  
-> _To be added_
+This laboratory exercise covers fundamental programming concepts in Python, including user-defined functions, function overloading, input validation, array processing, and call by value/reference. Each problem demonstrates a specific concept, such as arithmetic operations, area calculations, factorial computation, line printing, substring extraction, and summing odd numbers from user input.
 
 ---
 
@@ -107,50 +118,50 @@ dsa_laboratory_exercise_2/
     <tr>
       <td>call_by_value_reference</td>
       <td>factorial_calculator</td>
-      <td>to be added</td>
-      <td>to be added</td>
+      <td>main.py, factorial_function.py, input_checker.py</td>
+      <td>Computes the factorial of a given non-negative integer using a function that updates the result by reference. Ensures only valid integer input is accepted.</td>
     </tr>
     <tr>
       <td>call_by_value_reference</td>
       <td>linechar_overload</td>
-      <td>to be added</td>
-      <td>to be added</td>
+      <td>main.py, linechar_function.py</td>
+      <td>Overloads a function named <code>linechar</code> to display lines of characters with different arguments, demonstrating function overloading in Python.</td>
     </tr>
     <tr>
       <td>call_by_value_reference</td>
       <td>simple_calculator</td>
-      <td>to be added</td>
-      <td>to be added</td>
+      <td>main.py, calculator_function.py, input_checker.py</td>
+      <td>Performs basic arithmetic operations (add, subtract, multiply, divide) on two integers using functions that accept input by value. Includes input validation.</td>
     </tr>
     <tr>
       <td>function_overloading</td>
       <td>add_nums</td>
-      <td>to be added</td>
-      <td>to be added</td>
+      <td>main.py, add_function.py, input_checker.py</td>
+      <td>Demonstrates function overloading by adding two, three, or four numbers using different function signatures and array input for four numbers.</td>
     </tr>
     <tr>
       <td>function_overloading</td>
       <td>substring</td>
-      <td>to be added</td>
-      <td>to be added</td>
+      <td>main.py, substring_function.py, input_checker.py</td>
+      <td>Overloads a substring function to display the whole string, a substring from a start index, or a substring from a start to an end index, with input validation for indices.</td>
     </tr>
     <tr>
       <td>pass_by_array</td>
       <td>sum_odds_num</td>
-      <td>to be added</td>
-      <td>to be added</td>
+      <td>main.py, sum_odds.py, input_checker.py</td>
+      <td>Prompts the user to enter ten numbers, stores them in an array, and calculates the sum of all odd numbers using a function that accepts the array as an argument.</td>
     </tr>
     <tr>
       <td>return_value</td>
       <td>area_calculator</td>
-      <td>to be added</td>
-      <td>to be added</td>
+      <td>main.py, area_functions.py, input_checker.py</td>
+      <td>Computes the area of a square, rectangle, triangle, or circle using user-defined functions that return values. Accepts only positive numeric input for dimensions.</td>
     </tr>
     <tr>
       <td>void_function</td>
       <td>simple_math_ops</td>
-      <td>to be added</td>
-      <td>to be added</td>
+      <td>main.py, operations.py, input_checker.py</td>
+      <td>Performs addition, subtraction, multiplication, and division of two integers using user-defined void functions. Includes input validation for integers and division by zero.</td>
     </tr>
   </tbody>
 </table>
